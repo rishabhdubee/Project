@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: beige 
+}
+
+/*   NAVBAR  */
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding:6px 0px;
+}
+
+.header-buttons{
+    display: flex;
+    gap: 20px   ;
+}
+
+                                                   /*Call Button*/
+.header-call-button{
+    display: flex;  
+}
+
+.call-button{
+    height: 45px;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid grey;
+
+}
+
+
+
+                                                /*Whatsapp Button*/
+
+
+.header-whatsapp-button{
+    display: flex;
+}
+
+.whatsapp-button{
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    color: white;
+    background-color: #25D366;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+.whatsapp-button:hover{
+    background-color: #25D366;
+    transform: scale(1.05);
+}
+
+                                                    /*HomePage*/
+
+
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 660px;
+    width: 460px;
+    width: 100%;
+    background-image: url("Global-Eye-Clinic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.homepage-left{
+    height: 100%;
+    width: 50%;
+    color: white;
+    align-items: center;
+    padding-left: 30px;
+    
+    
+}
+
+.banner{
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    color : beige;
+    border-radius: 25px;
+    margin: 40px 0px 0px 20px;
+    padding: 34px;
+    border: 1px solid white;
+
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(25px); /* Frosted glass blur effect */
+    -webkit-backdrop-filter: blur(25px); /* Safari support */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.b-12{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.b-22{
+    margin: 14px 0px 0px 0px;
+    font-size: 70px;
+}
+
+.b-32{
+    font-size: 25px;
+    margin-top: 12px;
+
+
+}
+.b-42{
+    margin-top: 16px;
+    
+}
+
+.b-52{
+    margin-top: 28px;
+}
+#wbb{
+    width: 227px;
+    height: 54px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-family: Jost,sans-serif;
+    font-weight: 600;
+}
+                                                    /*Right side of homepage*/
+
+.homepage-right{
+    height: 100%;
+    width: 50%;
+}
+
+.right-photo{
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    margin: 80px 0px 0px 120px;
+    background-image: url(Gemini_Generated_Image_ubpxo7ubpxo7ubpx.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    border-radius: 40px 80px 40px 80px; 
+    display: block;
+}
+
+.right-photo-banner{
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 40px;
+    width: 150px;
+    color: black;
+    border-radius: 10px;
+    margin-left: 170px;
+
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(12px); /* Frosted glass blur effect */
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+                                                            /* About page*/
+
+
+.About{
+    height: 700px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+}
+
+.about-left{
+    height: 100%;
+    width: 45%;
+    background-color: beige;
+}
+
+.about-left-photo{
+    height: 600px;
+    width: 80%;
+    margin: 80px 0px 0px 50px;
+    background-image: url(Gemini_Generated_Image_gd02pdgd02pdgd02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.about-right{
+    height: 100%;
+    width: 55%;
+    background-color: beige
+}
+
+.ar-1{
+    font-size: 25px;
+    font-family: 'Courier New', Courier;
+    color: goldenrod;
+    padding: 20px 0px 0px 20px;
+}
+
+.ar-2{
+    font-size: 55px;
+    font-weight: 700;
+    color:rgb(27, 0, 0);
+}
+
+.ar-3{
+    font-size: 18px;
+    font-weight: 550;
+    font-style: italic;
+    color: brown;
+    padding-top: 10px;
+
+}
+
+.ar-4{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+  color: #62584d;
+
+  padding-top: 30px;
+}
+
+
+.ar-5{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.num{
+    display: flex;
+}
+
+#thirteen{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+#plus{
+    font-size: 35px;
+    font-weight: 550;
+    color: goldenrod;
+}
+#star{
+    font-size: 28px;
+}
+
+#tt{
+    font-size: 20px;
+    color:rgb(27, 0, 0);
+    font-weight: 100;
+}
+
+                                        /* Services */
+
+
+.Services{
+    height: 800px;
+    width: 100%;
+    padding-top: 60px;
+    background-color: #fffce0;
+}
+
+.service-up{
+    margin: 0px 200px 0px 200px;
+    height: 250px;
+    padding-top: 20px;
+
+    
+}
+
+
+.service-up-text-1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#s-1{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(29, 1, 1);
+}
+
+.service-up-text-2{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#s-2{
+    font-size: 16px;
+    color: rgb(29, 1, 1);
+}
+
+
+
+/**/
+.service-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.service-1{
+    height: 400px;
+    width: 31%;
+    background-color: brown;
+    border-radius: 30px;
+}
+
+.service-2{
+    height: 400px;
+    width: 31%;
+    background-color: brown;
+    border-radius: 30px;
+}
+
+.service-3{
+    height: 400px;
+    width: 31%;
+    background-color: brown;
+    border-radius: 30px;
+}
+/**/
+
+/* ================= SERVICES CARDS ================= */
+
+.service-card {
+    height: 400px;
+    width: 31%;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid rgba(29, 1, 1, 0.08);
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 30px rgba(29, 1, 1, 0.06);
+}
+
+.service-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(29, 1, 1, 0.12);
+}
+
+.service-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 18px;
+    background: #fff5cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.service-icon i {
+    font-size: 28px;
+    color: goldenrod;
+}
+
+.service-card h3 {
+    font-size: 25px;
+    color: rgb(29, 1, 1);
+    margin-bottom: 18px;
+    line-height: 1.3;
+}
+
+.service-card p {
+    font-size: 15px;
+    color: #62584d;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.service-card a {
+    margin-top: auto;
+    text-decoration: none;
+    color: rgb(29, 1, 1);
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.service-card a i {
+    margin-left: 8px;
+    color: goldenrod;
+    transition: 0.3s ease;
+}
+
+.service-card a:hover {
+    color: goldenrod;
+}
+
+.service-card a:hover i {
+    transform: translateX(5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                /*Reviews*/
+/* ================= REVIEWS SECTION ================= */
+
+.Reviews {
+    min-height: 750px;
+    width: 100%;
+    background: beige;
+    padding: 90px 60px;
+}
+
+
+/* Heading */
+
+.reviews-heading {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 60px auto;
+}
+
+.reviews-small {
+    font-family: 'Courier New', Courier, monospace;
+    color: goldenrod;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.reviews-heading h2 {
+    font-size: 48px;
+    color: rgb(29, 1, 1);
+    margin-bottom: 18px;
+}
+
+.reviews-description {
+    color: #62584d;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* Review Cards */
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.review-card {
+    flex: 1;
+    min-height: 310px;
+    background: #fffce0;
+    border-radius: 25px;
+    padding: 32px;
+    border: 1px solid rgba(29, 1, 1, 0.08);
+    box-shadow: 0 10px 30px rgba(29, 1, 1, 0.05);
+    transition: all 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(29, 1, 1, 0.1);
+}
+
+
+/* Patient */
+
+.review-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.review-avatar {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: rgb(29, 1, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review-top h3 {
+    font-size: 17px;
+    color: rgb(29, 1, 1);
+    margin-bottom: 5px;
+}
+
+.review-top p {
+    font-size: 12px;
+    color: #777;
+}
+
+
+/* Stars */
+
+.review-stars {
+    color: goldenrod;
+    font-size: 19px;
+    letter-spacing: 3px;
+    margin: 25px 0 18px 0;
+}
+
+
+/* Review Text */
+
+.review-text {
+    color: #62584d;
+    font-size: 14px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+
+/* Overall Rating */
+
+.review-rating {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.rating-number {
+    font-size: 42px;
+    font-weight: 600;
+    color: rgb(29, 1, 1);
+}
+
+.rating-stars {
+    color: goldenrod;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin: 5px 0;
+}
+
+.review-rating p {
+    color: #62584d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
